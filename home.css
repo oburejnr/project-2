@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(15, 1, 1);
+    background-color: rgb(53, 224, 119);
+    padding: 25px
+    
+}
+ul{
+    display: flex;
+    gap:50px;
+    list-style-type:none;
+}
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+}
+h1{
+    text-transform: uppercase;  
+}
+li a:hover{
+    color:yellow
+}
+header :hover{
+    color:red
+}
+h1{
+    background-color:rgb(192, 255, 201);
+}
+
